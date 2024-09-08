@@ -11,6 +11,7 @@ namespace PalindromeExerciseTests
             [InlineData("RAce Car", true)]
             [InlineData("Coding", false)]
             [InlineData("I am playing sports", false)]
+            [InlineData("I am eating food", false)]
 
             public void Test1(string actualword, bool expected)
             {
